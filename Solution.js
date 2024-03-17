@@ -5,6 +5,7 @@
  */
 var sumOfEncryptedInt = function (input) {
     let sumOfAllEncryptedValues = 0;
+    
     for (let value of input) {
         let numberOfDigits = findNumberOfDigits(value);
         let maxDigit = findMaxDigit(value);
